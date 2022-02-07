@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:segunda_parcial/pages/login.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({Key? key}) : super(key: key);
@@ -122,7 +123,9 @@ class RegisterPage extends StatelessWidget {
               ),
               separador(),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pop(context);
+                },
                 child: const Text('Cancelar'),
                 style: ElevatedButton.styleFrom(
                   minimumSize: const Size(350.0, 50.0),

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188387855491",
+    "project_id": "segundaparcial-e18c7",
+    "storage_bucket": "segundaparcial-e18c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188387855491:android:9683c2518f1f6aab3d9fb6",
+        "android_client_info": {
+          "package_name": "com.example.segunda_parcial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188387855491-cj86tqgp9152qbq2m6k9k4od9i15mm8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMPki1x50OfZOO4owHDv4DrQUlMgulnzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188387855491-cj86tqgp9152qbq2m6k9k4od9i15mm8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

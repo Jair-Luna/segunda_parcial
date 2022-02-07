@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:segunda_parcial/pages/register.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -114,7 +115,12 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const RegisterPage()));
+                      },
                       child: const Text('Regístrate'),
                       style: TextButton.styleFrom(
                         textStyle: const TextStyle(
